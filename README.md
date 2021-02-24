@@ -1,37 +1,120 @@
-## Welcome to GitHub Pages
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        *{
+            list-style: none;
+            text-decoration: none;
+        }
 
-You can use the [editor on GitHub](https://github.com/prettygenius220/project3/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+        body{
+            background-color: rgba(169, 222, 236, 0.336);
+        }
+        button{
+            font-family: Calibri;
+            border:none;
+            border-radius: 5px;
+        }
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+        li{
+            font-family: Calibri;
+            margin-left: 20px;
+           
+        }
 
-### Markdown
+        .smallboxsize{
+            width:250px;
+        }
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+        li:hover{
+            color: crimson;
+            
+        }
 
-```markdown
-Syntax highlighted code block
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <button class="get" style="background-color: rgba(169, 222, 236, 0.336)re; width:120px; height:40px; 
+        float:right; color:blue; border:2px solid blue; font-family: Arial;">Get started</button>
+        <ul>
+            <a href="#">
+                            <li style=" float:right; margin-right:30%">Contact</li>
+            </a>
 
-# Header 1
-## Header 2
-### Header 3
+            <a href="#">
+                            <li style=" float:right;">Pricing</li>
+            </a>
+                        
+            <a href="#">
+                            <li style=" float:right;">Services</li>
+            </a>
+                        
+            <a href="#">
+                            <li style=" float:right;">Features</li>
+            </a>
 
-- Bulleted
-- List
+            <a href="#">
+                            <li style=" float:right;">Free Landing Pages</li>
+            </a>
+                
+                
+        </ul>
 
-1. Numbered
-2. List
+    </nav>
+    <div class="shades">
+        <h3 style="font-family: Arial;"><img src="./stack.jpg" alt=""> Shades</h3>
+    </div>
+    <div class="mother">
+        <div class="make" style="width:600px; text-align:center;
+         font-family: Calibri;margin:auto;">
+            <p style="font-weight: bold; color:rgba(15, 1, 1, 0.548); letter-spacing: 
+            3px; font-family:monospace; font-size:large; ">PRESENT YOUR SERVICE</p>
+            <h2 style="font-size:70px;">Make landing page fast and easy.</h2>
+            <div class="create" style="width: 500px;text-align: center;">
+                <p style="font: size 50px; margin-left:10px; margin-top: -5%; color:rgba(15, 1, 1, 0.548);font-family:Calibri;
+                 font-size:larger; font-weight: bold;">Create custom
+                    landing pages with Shades that convert more visitors than any website-no coding required.</p>
+            </div>
+            <button class="Enter" style="background-color: whitesmoke;font-size: 20px; font-family: 
+            Calibri; width:200px;  margin-right: 10px;height:60px; color:rgba(15, 1, 1, 0.548); padding:10px;">Enter your email</button>
+            <button class="Sub" style="background-color: red;font-size: 20px; color:rgba(15, 1, 1, 0.548)white; 
+            width:140px; height:60px; padding:10px;">Subscribe</button>
+             <p style="font-family: Arial; color:rgba(15, 1, 1, 0.548); font-size:15px;">Trusted by over 50,000+ customers</p>
+        </div>
 
-**Bold** and _Italic_ and `Code` text
+        <div class="flo">
+            <div class="pencil smallboxsize" style="float:right;margin-left: 60px;  margin-right: 20%; font-weight: bold; font-size: large; font-family: Calibri; color: rgba(15, 1, 1, 0.548);">
+                <h3 style=" color:black;"> <img src="./books.jpg" alt="" style="margin-top:0;"> 50+ New Pages</h3>
+                <p>Editing and customizing Essential Landing is so easy and fast.</p>
+            </div>
+            
+            <div class="pencil smallboxsize" style="float:right; margin-left: 60px; font-weight: bold; font-size: large; font-family: Calibri; color: rgba(15, 1, 1, 0.548);">
+                <h3 style=" color:black;"> <img src="./stack.jpg" alt="" style="margin-top:0;"> 100% Responsive</h3>
+                <p>Editing and customizing Essential Landing is so easy and fast.</p>
+            </div>:\
+        
+            <div class="pencil smallboxsize" style="float:right;font-weight: bold; font-size: large; font-family: Calibri; color: rgba(15, 1, 1, 0.548);">
+                <h3 style=" color:black;"> <img src="./pencil.jpg" alt="" style="margin-top:0;">Easy to use</h3>
+                <p>Editing and customizing Essential Landing is so easy and fast.</p>
+            </div>
 
-[Link](url) and ![Image](src)
-```
+            <div class="empty" style="height: 10%; padding:5%;">
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+            </div>
+        
+            
+        </div>
 
-### Jekyll Themes
+       
+    </div>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/prettygenius220/project3/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
+    
+</body>
+</html>
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
